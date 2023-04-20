@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaryPiec</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/style.css">
+    <script src="https://kit.fontawesome.com/7e5f0f75ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <nav id="navbar" class="navbar navbar-expand-lg position-fixed top-0 w-100 py-3">
+        <div class="container">
+            <a class="navbar-brand nav-color" href="#"><i class=" fa-solid fa-cookie-bite"></i>stary<span
+                    class="gold-text">piec</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-sharp fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link nav-color active " href="#home">Home</a>
+                    <a class="nav-link nav-color" href="#aboutus">o nas</a>
+                    <a class="nav-link nav-color" href="#ourBaked">Nasze wypieki</a>
+                    <a class="nav-link nav-color" href="#prices">ceny</a>
+                    <a class="nav-link nav-color" href="#team">zespol</a>
+                    <a class="nav-link nav-color" href="#achievements">Firma w liczbach</a>
+                    <a class="nav-link nav-color" href="#contact">kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="hero-img">
+            <div class="hero-shadow"></div>
+            <div class="hero-text">
+                <h1 data-aos="fade-up" data-aos-delay="200">Witajcie w starym<span class="gold-text">Piecu</span></h1>
+                <p data-aos="fade-up" data-aos-delay="400">W miejscu, gdzie wypiekamy z pasją</p>
+                <a data-aos="fade-up" data-aos-delay="600" href="#aboutus" type="button"
+                    class="btn btn-outline-light">Poznaj nas</a>
+            </div>
+            <a href="#aboutus"><i class="fa-sharp fa-solid fa-chevron-down bounce-top"></i></a>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="aboutus" class="aboutus bg-light py-5">
+            <div class="container">
+
+                <h2>o nas</h2>
+
+                <div class="underline "></div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="100">
+                        <p><i class="fa-solid fa-bread-slice"></i></p>
+                        <p class="aboutus-card-title mb-1">świeże pieczywo</p>
+                        <p class="aboutus-card-text">Codziennie świeżo wypieczone, pachnące pieczywo!</p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="200">
+                        <p><i class="fa-solid fa-cookie"></i></p>
+                        <p class="aboutus-card-title mb-1">pyszne przekąski</p>
+                        <p class="aboutus-card-text">Słodkie, słone, przyjdź i przekonaj się które przypadną Ci do gustu
+                        </p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="300">
+                        <p><i class="fa-solid fa-cake-candles"></i></p>
+                        <p class="aboutus-card-title mb-1">Wyjątkowe ciasta</p>
+                        <p class="aboutus-card-text">Nasze ciasta przygotowywane są przez mistrzów cukiernictwa</p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="400">
+                        <p><i class="fa-solid fa-mug-hot"></i></p>
+                        <p class="aboutus-card-title mb-1">Pachnąca kawa</p>
+                        <p class="aboutus-card-text">Kawy z różnych części świata, przyciągają nie jednego kawosza</p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="500">
+                        <p><i class="fa-solid fa-plate-wheat"></i></p>
+                        <p class="aboutus-card-title mb-1">Składniki najwyższej jakości</p>
+                        <p class="aboutus-card-text">Do naszych wypieków używamy wyłącznie najwyższej jakości składników
+                        </p>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 text-center aboutus-hover " data-aos="zoom-in" data-aos-delay="600">
+                        <p><i class="fa-solid fa-truck"></i></p>
+                        <p class="aboutus-card-title mb-1">Dostarczamy pod twoje drzwi</p>
+                        <p class="aboutus-card-text">Codziennie dowozimy pod wskazany adres</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="aboutus-hero py-5">
+            <div class="aboutus-shadow"></div>
+            <div class="conatiner py-5">
+                <h2>Czysta przekąska</h2>
+                <div class="underline"></div>
+                <div class="row">
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="700">
+                        <p class="aboutus-hero-title mb-1">Bez glutenu</p>
+                        <p><i class="fa-solid fa-wheat-awn"></i></p>
+                        <p class="aboutus-hero-text">Nie musisz rezygnować z ulubionych smaków - mamy wiele
+                            bezglutenowych opcji</p>
+
+                    </div>
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="800">
+                        <p class="aboutus-hero-title mb-1">Bez nabiału</p>
+                        <p><i class="fa-solid fa-cow"></i></p>
+                        <p class="aboutus-hero-text">U nas znajdziesz wiele beznabiałowych przekąsek, które zadowolą
+                            Twoje podniebienie</p>
+
+                    </div>
+                    <div class="col-lg-4 text-center aboutus-hero-item" data-aos="zoom-in" data-aos-delay="900">
+                        <p class="aboutus-hero-title mb-1">Produkty vege</p>
+                        <p><i class="fa-solid fa-seedling"></i></p>
+                        <p class="aboutus-hero-text">Smaczne i zdrowe jedzenie nie musi zawierać mięsa - nasze przekąski
+                            to najlepsze dowody</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section id="ourBaked" class="ourBaked py-5">
+            <h2>Nasze Wypieki</h2>
+            <div class="underline"></div>
+            <div class="container pb-4">
+
+
+                <!-- ourbaked NA MOBILE -->
+                <div class="row d-lg-none">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card flex-fill mb-3 ourBakedCard">
+                            <img src="./dist/img/baguettes-small.jpg" class="card-img-top" alt="pieczywo w piekarni">
+                            <div class="card-body ourBakedBody">
+                                <h5 class="card-title ourBakedTitle">Pieczywo w różnych rodzajach</h5>
+                                <p class="card-text ourBakedText">Od chrupiących bagietek po miękkie bułki, nasze
+                                    pieczywo jest
+                                    dostępne w różnych
+                                    rodzajach, aby zaspokoić różne gusta.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card flex-fill mb-3 ourBakedCard">
+                            <img src="./dist/img/snacks-small.jpg" class="card-img-top" alt="przekąski w piekarni">
+                            <div class="card-body ourBakedBody">
+                                <h5 class="card-title ourBakedTitle">Małe pyszności z naszej piekarni</h5>
+                                <p class="card-text ourBakedText">Nasze przekąski to mieszanka słodkich i słonych
+                                    smaków, doskonała
+                                    na każdą okazję, od
+                                    popołudniowego przysmaku po imprezę z przyjaciółmi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card flex-fill mb-3 ourBakedCard">
+                            <img src="./dist/img/cake-small.jpg" class="card-img-top h-300" alt="muffinki">
+                            <div class="card-body ourBakedBody">
+                                <h5 class="card-title ourBakedTitle">Tradycyjne przepisy, nowoczesne smaki</h5>
+                                <p class="card-text ourBakedText">Nasze ciasta wypiekane są zgodnie z tradycyjnymi
+                                    przepisami, z
+                                    dodatkiem
+                                    nowoczesnych smaków i składników, dających wyjątkowy efekt.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="card flex-fill mb-3 ourBakedCard">
+                            <img src="./dist/img/wedding-small.jpg" class="card-img-top" alt="tort">
+                            <div class="card-body ourBakedBody">
+                                <h5 class="card-title ourBakedTitle">Specjalne okazje</h5>
+                                <p class="card-text ourBakedText">W naszej piekarni oferujemy różnorodne torty, które
+                                    sprawią, że
+                                    każda specjalna
+                                    okazja będzie jeszcze bardziej wyjątkowa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ourBaked na desktopy -->
+
+                <div id="carouselExampleCaptions" class="carousel slide d-none d-lg-block">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./dist/img/baguettes-big.jpg" class="d-block w-100" alt="pieczywo w piekarni">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Pieczywo w różnych rodzajach</h5>
+                                <p>Od chrupiących bagietek po miękkie bułki, nasze pieczywo jest dostępne w różnych
+                                    rodzajach, aby zaspokoić różne gusta.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./dist/img/snacks-big.jpg" class="d-block w-100" alt="przekąski w piekarni">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Małe pyszności z naszej piekarni</h5>
+                                <p>Nasze przekąski to mieszanka słodkich i słonych smaków, doskonała na każdą okazję, od
+                                    popołudniowego przysmaku po imprezę z przyjaciółmi.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./dist/img/cake-big.jpg" class="d-block w-100" alt="muffinki ">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Tradycyjne przepisy, nowoczesne smaki</h5>
+                                <p>Nasze ciasta wypiekane są zgodnie z tradycyjnymi przepisami, z dodatkiem
+                                    nowoczesnych smaków i składników, dających wyjątkowy efekt.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./dist/img/wedding-big.jpg" class="d-block w-100" alt="tort">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Specjalne okazje</h5>
+                                <p>W naszej piekarni oferujemy różnorodne torty, które sprawią, że każda specjalna
+                                    okazja będzie jeszcze bardziej wyjątkowa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+            </div>
+        </section>
+        <section id="prices" class="prices py-5 bg-light">
+            <h2>Ceny</h2>
+            <div class="underline"></div>
+            <div class="container">
+                <div class="price-wrap row text-center justify-content-center">
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>Solo</h3>
+                            <hr>
+                            <p><span>Ilość osób: </span><i class="fa-solid fa-person"></i></p>
+                            <p><span>Pieczywo: </span>Tak</p>
+                            <p><span>Przekąski: </span>Brak</p>
+                            <p><span>Ciasta: </span>Brak</p>
+                            <p class="price-tag">30 zł</p>
+                            <button class="btn btn-secondary">Zamawiam</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>Dla dwojga</h3>
+                            <hr>
+                            <p><span>Ilość osób: </span><i class="fa-solid fa-person"></i><i
+                                    class="fa-solid fa-person-dress"></i></p>
+                            <p><span>Pieczywo: </span>Tak</p>
+                            <p><span>Przekąski: </span>Do uzgodnienia</p>
+                            <p><span>Ciasta: </span>Do uzgodnienia</p>
+                            <p class="price-tag">50 zł</p>
+                            <button class="btn btn-warning">Zamawiam</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-4">
+                        <div class="price-box">
+                            <h3>Rodzinna uczta </h3>
+                            <hr>
+                            <p><span>Ilość osób </span><i class="fa-solid fa-person"></i><i
+                                    class="fa-solid fa-person-dress"></i><i class="fa-solid fa-person"></i><i
+                                    class="fa-solid fa-person-dress"></i></p>
+                            <p><span>Pieczywo: </span>Tak</p>
+                            <p><span>Przekąski: </span>Tak</p>
+                            <p><span>Ciasta: </span>Tak</p>
+                            <p class="price-tag">85 zł</p>
+                            <button class="btn btn-secondary">Zamawiam</button>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="price-info text-center">Skorzystaj z jednego z trzech głównych pakietów, lub <a
+                        href="#contact">skontaktuj
+                        się</a> z nami i ustal warunki indywidualne!</p>
+                <p class="text-muted text-center">Pakiet <strong>RODZINNA UCZTA</strong> zawiera dostawę w cenie
+                    zestawu !!</p>
+            </div>
+        </section>
+
+        <section id="team" class="team py-5 team-hero">
+            <div class="team-shadow"></div>
+            <h2>team</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="card-group team-carousel">
+                    <div class="card mx-3">
+                        <img src="./dist/img/team/szef.jpg" class="card-img-top" alt="mezczyzna prowadzący działalnosc">
+                        <div class="card-body">
+                            <h5 class="card-title">Szef</h5>
+                            <p class="card-text">Właściciel piekarni, dba o wszystko o co inni nie zadbają.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="./dist/img/team/piekarz.jpg" class="card-img-top" alt="kucharz palący papierosa">
+                        <div class="card-body">
+                            <h5 class="card-title">Tomek</h5>
+                            <p class="card-text">Codziennie dba, żebyś dostawał najwyższej jakości pieczywo.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="./dist/img/team/cukiernik.jpg" class="card-img-top" alt="kobieta piekąca ciasto">
+                        <div class="card-body">
+                            <h5 class="card-title">Andrea</h5>
+                            <p class="card-text">Wypieka nasze niesamowite słodkości. Uczyła się od najlepszych
+                                cukierników na świecie.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="./dist/img/team/rolnik.jpg" class="card-img-top" alt="mężczyzna na polu">
+                        <div class="card-body">
+                            <h5 class="card-title">Pan Stanisław</h5>
+                            <p class="card-text">Dostarcza najlepszej jakości produkty do naszej piekarni.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="card mx-3">
+                        <img src="./dist/img/team/dostawca.jpg" class="card-img-top" alt="dostawca jedzenia">
+                        <div class="card-body">
+                            <h5 class="card-title">Marek</h5>
+                            <p class="card-text">Każdego ranka dostarcza Ci świeże wypieki.</p>
+                        </div>
+                        <div class="card-footer d-flex justify-content-around">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i
+                                    class="fab fa-twitter"></i></a><a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="achievements" class="achievements py-5">
+            <h2>Firma w liczbach</h2>
+            <div class="underline"></div>
+            <div class="container ">
+                <div class="row achievements-list text-center">
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="500">
+                        <i class="fas fa-thumbs-up"></i>
+                        <p class="achievement-number">99%</p>
+                        <p class="achievement-text">zadowolonych klientów</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fa-solid fa-trophy"></i>
+                        <p class="achievement-number">12</p>
+                        <p class="achievement-text">wygranych konkursów</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="fa-solid fa-cookie"></i>
+                        <p class="achievement-number">>1000</p>
+                        <p class="achievement-text">wypieków dziennie</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="achievement-number">2</p>
+                        <p class="achievement-text">lokalizacje piekarni</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fa-solid fa-user-group"></i>
+                        <p class="achievement-number">30</p>
+                        <p class="achievement-text">zatrudnionych osób</p>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-2 achievement" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fa-solid fa-share-nodes"></i>
+                        <p class="achievement-number">3.000</p>
+                        <p class="achievement-text">fanów w social media</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact py-5">
+            <h2>kontakt</h2>
+            <div class="underline"></div>
+
+            <div class="container">
+                <div class="row text-center contact-us">
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+                        <h3>Piekarnia nr I</h3>
+                        <p>ul. Długa 154</p>
+                        <p>20-612 Lublin</p>
+                        <p>+48 433 242 221</p>
+                        <p>stary.piec.dluga@gmail.com</p>
+                    </div>
+                    <div class="col-lg-4 order-0 order-lg-1 contact-item">
+                        <h3>social media</h3>
+                        <div class="social-media">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 contact-item order-1">
+                        <h3>Piekarnia nr II</h3>
+                        <p>ul.Nowoświatłowska 43</p>
+                        <p>20-631 Lublin</p>
+                        <p>+48 685 211 221</p>
+                        <p>stary.piec.gleboka@gmail.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="contact-shadow"></div>
+        </section>
+    </main>
+
+    <footer class="footer text-light py-4 text-center">
+        <p class="mb-0">&copy; 2023 | STARYPIEC</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            startEvent: 'DOMContentLoaded',
+            offset: 120,
+            once: true
+        });
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./dist/js/index.js"></script>
+    <script src="./dist/js/slicksetting.js"></script>
+</body>
+
+</html>
